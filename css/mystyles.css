@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Nunito:400,700");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&display=swap");
 /* Bulma Utilities */
 .button, .input, .textarea, .select select, .file-cta,
 .file-name {
@@ -179,7 +179,7 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: "Nunito", sans-serif; }
+  font-family: "Merriweather", sans-serif; }
 
 code,
 pre {
