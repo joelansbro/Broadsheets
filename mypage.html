@@ -7,9 +7,8 @@
     <title>My custom Bulma website</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
     <link rel="stylesheet" href="css/mystyles.css">
-    <script src="datesubtitle.js"></script>
   </head>
-  <body onload="updateDate()">
+  <body>
 
     <section class="container hero border-container">
       <!-- Hero head: will stick at the top -->
@@ -37,9 +36,8 @@
       <div class="hero-body">
         <div class="container has-text-centered">
           <h1 class="primary-h1">ALBION TIMES</h1>
-          <p class="subtitle">
-            Date and Time
-          </p>
+          <!-- Update this to the dynamic date and time -->
+          <p class="subtitle" id="date-sub"></p>
         </div>
       </div>
 
@@ -185,5 +183,6 @@
     </section>
 
     </div>
+    <script src="getdate.js"></script>
   </body>
 </html>
