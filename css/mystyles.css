@@ -5,14 +5,14 @@
 }
 
 body {
-  background-color: #F2DFCE;
+  background-color: white;
 }
 
 .box {
   border: none;
   box-shadow: none;
   padding: 0;
-  background-color:#F2DFCE;
+  background-color:inherit;
 }
 
 .small-title {
@@ -23,9 +23,27 @@ p {
   color: black;
 }
 .title {
-  color: black;
+  color:black;
 }
 
 .primary-h1 {
   font-size: 5em;
+
+}
+
+.hero {
+background-color: #F5EFEB;
+}
+.border-container {
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+  background-color: #F5EFEB;
+}
+
+.navbar-menu {
+  padding-right: 15px;
+}
+
+a {
+  color: black;
 }
