@@ -47,3 +47,16 @@ background-color: #F5EFEB;
 a {
   color: black;
 }
+
+.red {
+  color: red;
+  padding: 2px;
+  border: 1px solid white;
+}
+
+.green{
+  color: lightgreen;
+  padding: 2px;
+  border: 1px solid white;
+}
+
