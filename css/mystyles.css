@@ -64,3 +64,12 @@ a {
   text-align: justify;
   text-justify: inter-word;
 }
+
+.subtitle {
+  margin-bottom: 1rem !important;
+}
+
+
+.section {
+  padding-top: 1rem !important;
+}
