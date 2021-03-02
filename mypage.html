@@ -7,6 +7,8 @@
     <title>My custom Bulma website</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
     <link rel="stylesheet" href="css/mystyles.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="ticker.js"></script>
   </head>
   <body>
 
@@ -17,21 +19,11 @@
           <div class="container">
             <div id="navbarMenuHeroA" class="navbar-menu">
               <div class="navbar-end">
-                <div class="red">
-                  FTSE:-168
-                </div>
-                <div class="green">
-                  GSPC:18.19
-                </div>
-                <div class="red">
-                  DOW:-469
-                </div>
-                <div class="green">
-                  NIKKEI:1202.29
-                </div>
-                <div class="red">
-                  HSI:-1093.99
-                </div>
+                <div id="USDJPY"></div>
+                <div id="GBPUSD"></div>
+                <div id="EURUSD"></div>
+                <div id="BTCUSD"></div>
+                <div id="ETHUSD"></div>
               </div>
             </div>
           </div>
@@ -42,8 +34,9 @@
       <div class="hero-body">
         <div class="container has-text-centered">
           <h1 class="primary-h1">ALBION TIMES</h1>
-          <!-- Update this to the dynamic date and time -->
+          <!-- Get these to be on the same line, but that's a nice realtime clock interface right there! -->
           <p class="subtitle" id="date-sub"></p>
+          <div id="MyClockDisplay" class="clock" onload="showTime()"></div>
         </div>
       </div>
 
